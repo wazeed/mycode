@@ -1,0 +1,10 @@
+name = "peptidepro-ai-proxy"
+main = "src/index.ts"
+compatibility_date = "2025-01-15"
+
+[vars]
+ANTHROPIC_MODEL = "claude-sonnet-4-6"
+APP_BUNDLE_ID = "com.peptidepro.app"
+SUBSCRIPTION_PRODUCT_IDS = "com.peptidepro.app.premium.monthly,com.peptidepro.app.premium.yearly"
+
+# Set secrets with: wrangler secret put ANTHROPIC_API_KEY

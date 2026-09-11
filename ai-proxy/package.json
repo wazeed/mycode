@@ -1,0 +1,20 @@
+{
+  "name": "peptidepro-ai-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "jsrsasign": "^11.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240320.0",
+    "@types/jsrsasign": "^10.5.15",
+    "typescript": "^5.4.0",
+    "wrangler": "^3.40.0"
+  }
+}
